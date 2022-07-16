@@ -1,0 +1,191 @@
+body{
+  width: 100%;
+}
+
+.bar{
+width: 100%;
+height: 63px;
+background: #EB1B29 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #C8121E29;
+border: 1px solid #C8121E;
+opacity: 1;
+}
+
+.picture{
+  margin-top: 0px;
+margin-left: 16px;
+width: 210px;
+height: 60px;
+background: none;
+opacity: 1;
+}
+
+section{
+position: relative;
+width: 735px;
+height: 690px;
+align-items: center;
+}
+
+section:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(2.jpeg);
+  border-radius: 0 10% 10% 0/ 0 95% 95% 0;
+}
+
+.card{
+margin-top: 25px;
+margin-left: 30px;
+padding: 1px;
+width: 450px;
+height: 640px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+opacity: 0.86;
+}
+
+.pic{
+  width: 280px;
+  height: 250px;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+.box{
+margin-left: 23px;
+width: 380px;
+height: 60px;
+background: #F6F6F6 0% 0% no-repeat padding-box;
+opacity: 1;
+border-bottom: 1px solid #707070;
+}
+
+.text{
+  margin-left: 15px;
+text-align: left;
+font: normal normal medium 20px Roboto;
+letter-spacing: 2.23px;
+color: #707070;
+opacity: 1;
+}
+
+.remember{
+  margin-top: 8px;
+margin-left: 25px;
+text-align: left;
+font-size: 14px;
+font: normal normal medium 10px Roboto;
+letter-spacing: 1.96px;
+color: #707070;
+opacity: 1;
+}
+
+.btn{
+  margin-top: 16px;
+margin-left: 25px;
+width: 380px;
+height: 50px;
+background: #EB1B29 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 3px #00000033;
+border: 1px solid #EB1B29;
+border-radius: 70px;
+opacity: 1;
+}
+
+.sign{
+font: normal normal medium 25px/33px Roboto;
+letter-spacing: 2.23px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.do{
+  margin-left: 90px;
+  text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 1px;
+color: #707070;
+opacity: 1;
+}
+
+.signup{
+  text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 1px;
+color: #EB1B29;
+opacity: 1;
+}
+
+@media only screen and (max-width: 320px) {
+  #response1{
+    display: none;
+  }
+
+  #response2{
+    width: 300px;
+  }
+  .pic{
+    height: 180px;
+    width: 180px;
+    margin-left: 30px;
+  }
+
+  .box{
+    width: 240px;
+  }
+  .btn{
+    width: 230px;
+  }
+  #ignore{
+    display: none;
+  }
+
+.do{
+  margin-left: 10px;
+}
+.remember{
+  margin-left: 0px;
+}
+#space{
+  margin-left: 10px;
+}
+.card{
+  height: 550px;
+  margin-top: 60px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #response1{
+    display: none;
+  }
+
+  #response2{
+    opacity: 0.8;
+  }
+
+  #back{
+    background-image: url(2.jpeg);
+    size: cover;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  #response1{
+        display: none;
+  }
+
+  #response2{
+  opacity: 0.8;
+  }
+
+  #back{
+    background-image: url(2.jpeg);
+    size: cover;
+
+}
